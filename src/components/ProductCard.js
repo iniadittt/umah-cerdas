@@ -11,7 +11,7 @@ export default function ProductCard() {
             <div className='lg:w-full lg:h-full lg:flex lg:flex-col lg:justify-end lg:items-end lg:pb-3 lg:pr-5 lg:absolute lg:z-[1]'>
                 <p className="lg:font-semibold lg:text-gray-100 lg:text-3xl">Rp120.000</p>
             </div>
-            <img src="/images/product.png"/>
+            <img src={process.env.PUBLIC_URL + "/images/product.png"}/>
         </div>
         <div className='lg:w-full lg:flex lg:flex-col lg:gap-1 lg:justify-between'>
             <div className='lg:w-full lg:h-auto'>

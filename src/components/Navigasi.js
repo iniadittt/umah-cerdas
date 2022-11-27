@@ -8,7 +8,7 @@ export default function Navigasi() {
   return (
     <div className="lg:w-full lg:fixed lg:z-20 lg:bg-[#0F172A] lg:flex lg:justify-between lg:gap-16 lg:px-28 lg:font-poppins lg:text-base lg:text-gray-200 lg:shadow-xl">
         <div className="lg:w-3/12 lg:my-auto lg:py-2">
-            <img src="/images/logo-uc.png" alt="Logo" className="lg:h-[3.6rem]"/>
+            <img src={process.env.PUBLIC_URL + "/images/logo-uc.png"} alt="Logo" className="lg:h-[3.6rem]"/>
         </div>
         <ul className="lg:w-8/12 lg:flex lg:justify-end lg:gap-10 lg:py-4">
             <li className="lg:my-auto">

@@ -8,7 +8,7 @@ export default function Footer() {
     <div className="lg:w-full lg:h-auto lg:bg-[#0F172A] lg:flex lg:flex-col lg:font-poppins lg:justify-between lg:mt-10">
         <div className="lg:flex lg:py-8 lg:px-28 lg:gap-6">
             <div className="lg:w-1/4 lg:h-full">
-                <img src="/images/logo-uc.png" className="lg:h-full"/>
+                <img src={process.env.PUBLIC_URL + "/images/logo-uc.png"} className="lg:h-full" alt="Logo"/>
             </div>
             <div className="lg:w-1/4 lg:h-full lg:flex lg:flex-col lg:gap-2">
                 <h1 className="lg:font-semibold lg:text-gray-300 lg:mb-3">TENTANG UMAH CERDAS</h1>
