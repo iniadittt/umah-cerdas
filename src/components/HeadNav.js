@@ -9,7 +9,7 @@ export default function HeadNav() {
           <div className="lg:absolute lg:w-full lg:h-full lg:opacity-0 lg:hover:opacity-100 lg:flex lg:flex-col lg:justify-center lg:cursor-pointer lg:duration-300 lg:hover:duration-300">
             <p className="lg:py-3 lg:bg-white lg:font-poppins lg:text-medium lg:text-xl lg:font-semibold lg:text-center lg:rotate-[-3deg] lg:scale-125">Pelatihan Batik Umah Cerdas</p>
           </div>
-          <img src={process.env.PUBLIC_URL + "/images/header1.jpg"} className="lg:w-full" alt="Image Background"/>
+          <img src={process.env.PUBLIC_URL + "/images/header1.jpg"} alt="Image Background" className="lg:w-full" />
         </div>
       </div>
     </div>
