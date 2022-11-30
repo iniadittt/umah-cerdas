@@ -18,6 +18,9 @@ export default function Navigasi() {
                 <Link to="/products">Product</Link>
             </li>
             <li className="lg:my-auto">
+                <Link to="/kuisioner/1">Kuisioner</Link>
+            </li>
+            <li className="lg:my-auto">
                 <Link to="/support">Support</Link>
             </li>
         </ul>
